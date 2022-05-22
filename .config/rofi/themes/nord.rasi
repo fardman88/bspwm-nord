@@ -99,7 +99,8 @@ element-icon {
 }
 window {
     padding: 0;
-    border: 0;
+    border: 2;
+    border-color: #d8dee9;
     background-color: var(background);
 }
 mainbox {
@@ -114,15 +115,9 @@ textbox {
 }
 listview {
     margin: 0px 0px 5px;
-    scrollbar: true;
+    scrollbar: false;
     spacing: 2px;
     fixed-height: 0;
-}
-scrollbar {
-    padding: 0;
-    handle-width: 14px;
-    border: 0;
-    handle-color: var(nord3);
 }
 button {
     spacing: 0;
